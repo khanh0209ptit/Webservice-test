@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTenSV"
+        android:textSize="20sp"
+        android:textColor="#DA1616"
+        android:text="Họ tên sinh viên"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvNamSinhSV"
+        android:text="Nam sinh: 1999"
+        android:textSize="20sp"
+        android:textColor="#1610CC"
+        android:layout_below="@id/tvTenSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvDiaChiSV"
+        android:layout_below="@id/tvTenSV"
+        android:textSize="20sp"
+        android:textColor="#15D519"
+        android:layout_alignParentRight="true"
+        android:text="Thanh Hoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imgDelete"
+        android:layout_width="38dp"
+        android:layout_height="33dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="9dp"
+        android:src="@drawable/x1">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imgEdit"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_toLeftOf="@id/imgDelete"
+        android:src="@drawable/ghichu2">
+    </ImageView>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Them SV"
+        android:id="@+id/menuAddSinhVIen"
+        android:icon="@drawable/add2"
+        app:showAsAction="always">
+    </item>
+
+</menu>
